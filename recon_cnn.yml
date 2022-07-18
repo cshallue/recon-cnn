@@ -1,0 +1,22 @@
+name: recon-cnn
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - astropy
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pyfftw
+  - git
+  - pip
+  - pip:
+    - jax
+    - jaxlib
+    - flax
+    - optax
+    - absl-py
+    - ml_collections
+    - clu
+    - asdf
